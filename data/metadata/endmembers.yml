@@ -1,0 +1,23 @@
+LUW:
+  CT: 23.4
+  CT_sd: 0.2
+  sal_wat: 35.9
+  sal_wat_sd: 0.05
+  o2: 210
+  o2_sd: 3
+
+OOTW:
+  CT: 27.0
+  CT_sd: 0.3
+  sal_wat: 35.4
+  sal_wat_sd: 0.05
+  o2: 180
+  o2_sd: 3
+
+RSW:
+  CT: 29.0
+  CT_sd: 0.4
+  sal_wat: 24.0
+  sal_wat_sd: 0.1
+  o2: 240
+  o2_sd: 3
