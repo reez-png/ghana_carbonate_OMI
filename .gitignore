@@ -1,13 +1,19 @@
-# ---- Python ----
-__pycache__/
-*.py[cod]
+# Python virtual environments
 .venv/
+.venv311/
+venv/
+*.pyc
+__pycache__/
 
-# ---- Jupyter ----
-.ipynb_checkpoints/
+# PyCharm
+.idea/
+# If you *really* want to track vcs.xml, remove .idea/ from here
+# but generally .idea/ should be ignored to prevent sharing local IDE settings
 
-# ---- Data ----
-data/raw/
-data/interim/
-*.xls
-*.csv
+# Data files (adjust as needed based on what's generated)
+data/raw/ # If raw data is too large/sensitive to track
+data/interim/ # If interim data is generated and can be recreated
+data/processed/ # If processed data is generated and can be recreated
+results/*.parquet # Example: ignore all parquet files in results
+results/*.csv # Example: ignore all csv files in results
+# Keep results/reports/water_co2_profile.html if you want to track it
